@@ -1,0 +1,12 @@
+div h2{
+    color: blue;
+}
+div>h1{
+    color: rgb(166, 255, 0);
+}
+div+p{
+    color: rgb(255, 123, 0);
+}
+div~h6{
+    color: rgb(42, 165, 65);
+}

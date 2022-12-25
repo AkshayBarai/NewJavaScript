@@ -1,0 +1,86 @@
+.sidebar{
+    width: 200px;
+    height: 536px;
+    background-color: rgb(160, 95, 150);
+    position: absolute;
+    margin-left: 15px;
+    top: 20px;
+}
+
+.main{
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.sidebar2{
+    float: right;
+    width: 200px;
+    height: 536px;
+    background-color: aqua;
+    
+}
+.maincon{
+    margin-left: 480px;
+    
+}
+.cont{
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    margin-left: 220px;
+
+
+} 
+.form1{
+    margin-left: 20px;
+    margin-top:20px ;
+}
+input[type=text],input[type=password]{
+    width: 300px;
+    margin: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+ 
+
+}
+.btn{
+    width: 300px;
+    background-color: rgb(32, 211, 32);
+    color: white;
+    padding:10px ;
+    border: none;
+    margin-left:10px ;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: .8;
+    box-shadow:  0 12px 15px 0 rgb(172, 170, 170);
+}
+ .maincon2{
+    width: 450px;
+    height: 150px;
+    background-color: cornflowerblue;
+    top: 350px;
+    position: absolute;
+ }
+ .btn2{
+    background-color: chocolate;
+    border: none;
+    color: white;
+    margin-top:60px ;
+    margin-left: 5px;
+    padding: 10px 5px;
+ }
+ .footer{
+    float: right;
+    margin-top:60px ;
+    
+ }
+ 
+ .footer a {
+    color: white;
+    text-decoration: none;
+ }

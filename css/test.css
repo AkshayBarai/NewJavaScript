@@ -1,0 +1,83 @@
+.abc{ 
+    color: aqua;
+    text-transform: uppercase;
+}
+.test{
+    font-size: 20px;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border: solid;
+    /* word-break: break-all;  */
+     text-overflow: ellipsis; 
+    overflow: hidden;
+}
+.testone{
+    width: 70px;
+    border: 1px solid red;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+div.testone:hover{
+    overflow: visible;
+}
+div.test:hover{
+    overflow: visible;
+}
+.testthree{
+    color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin-left: 30px;
+/* overflow: scroll */
+/* overflow-y: scroll;
+overflow-x: hidden;
+     */
+     padding-left: 30px;
+}
+.testfour{ 
+    background-image:url("C:/Users/abara/Akshay/Rose.jpg") ;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    
+}
+.testtwo{
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.testfive{
+    text-transform: capitalize;
+    text-shadow: 2px 4px 8px red;
+    font-size: 30px;
+
+}
+.imageindex{
+    position: relative;
+    z-index: 1;
+    opacity: 0.5;
+
+}
+.new{
+    position: absolute;
+    top: 40px;
+    /* z-index: 1; */
+    
+}
+
+
+
+.newspaper{
+    column-count: 3;
+    column-gap: 10px;
+    column-rule: 1px solid rebeccapurple;
+    /* column-rule-style: dotted;
+    column-rule-color: blueviolet; */
+}

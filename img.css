@@ -1,0 +1,17 @@
+.smallimg{
+    position: relative;
+    display: inline-block;
+}
+.big_img{
+    display: none;
+    box-shadow: 0 10px 15px 0 rgb(156, 154, 154);
+    position: absolute;
+}
+.smallimg:hover .big_img{
+    display: block;
+}
+.caption{ 
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+}

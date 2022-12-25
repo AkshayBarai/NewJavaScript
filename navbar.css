@@ -1,0 +1,104 @@
+.mainconter{
+    width: 1000px;
+    border: 1px solid black;
+    height: 1000px;
+    margin: 0;
+    position: relative;
+  
+}
+.container{
+    display: inline-block;
+    float: left;
+    width: 600px;
+    top: 16px;
+    position: absolute;
+    
+   
+
+ }
+
+  .container a:hover{
+     background-color: green;
+     color: white;
+     
+ }
+ .container a{
+      text-decoration: none;
+      color: black;
+      padding:17px 10px;
+      font-weight: bold;
+      font-size: 30px;
+    
+      
+ }
+
+.btn {
+    float: right;
+    width: 400px;
+    margin: 10px 0;
+
+
+}
+
+.btn button{
+    display: inline-block;
+    padding: 15px;
+
+    
+}
+.upbtn,.getbtn,.freebtn,.logbtn{
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+    font-weight: bold;
+}
+.getbtn{
+    background-color: blueviolet;
+
+}
+.freebtn{
+    background-color: rgb(226, 107, 43);
+    
+}
+.logbtn{
+    background-color: rgb(43, 226, 58);
+
+}   
+.container2{
+     overflow: hidden;
+    clear:both ;
+    background-color: rgb(87, 86, 86);
+
+    
+    
+
+}
+.container2 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+    display: block;
+    
+}
+.container2 a:hover{
+    background-color: rgb(17, 15, 15);
+    
+}
+.upbtn:hover,.getbtn:hover,.freebtn:hover,.logbtn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+
+
+    
+
+
+ 
+ 
+
+
+

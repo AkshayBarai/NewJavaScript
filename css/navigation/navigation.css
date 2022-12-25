@@ -1,0 +1,103 @@
+/* .navbar{
+    overflow: hidden;
+    background-color: black;
+}
+.navbar a {
+    float: left;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none; */
+    .dropdown{
+        position: relative;
+        display: inline-block;
+}
+.dropbtn{
+    background-color:rgb(92, 244, 92);
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.dropcon,.Sub{
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 150px;
+    box-shadow: 0px 0px 15px 0px black;
+    
+
+}
+.dropcon a,.Sub a {
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    display: block;
+    float: none;
+
+} 
+.dropdown:hover .dropbtn  {
+    background-color: rgb(18, 159, 18);
+}
+.dropdown:hover .dropcon{
+    display: block;
+}
+.dropcon a:hover{
+    background-color: rgb(205, 208, 211);
+}
+ .Sub{
+    margin-left: 150px;
+    top: 0;
+    position: absolute;
+    
+    
+ }
+
+ .div:hover .Sub{
+    display: block;
+ }
+
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .main ul{
+    list-style: none;
+
+ }
+ .main ul li{
+    background-color: aqua;
+    width: 150px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size:20px ;
+    position: relative;
+ }
+ .main ul li:hover{
+    background-color: rgb(127, 213, 41);
+ }
+ .main ul ul{
+    display: none;
+ }
+
+.main ul li:hover > ul{
+    display: block;
+ }
+
+.main ul ul ul{
+    margin-left: 150px;
+    position: absolute;
+    top: 0;
+}
+.main ul ul ul ul{
+    margin-left: 150px;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,139 @@
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 50%;
+        background: #f1f1f1;
+    }
+
+    button {
+        float: left;
+        width: 10%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+        height: 42px;
+    }
+
+    button:hover {
+        background: #0b7dda;
+    }
+
+</style>
+
+<form class="example">
+    <input type="text" placeholder="Search..">
+    <button type="submit"><i class="fa fa-search"></i></button>
+</form> -->
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(239, 234, 234);
+
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+
+    }
+
+    .topnav a:hover:not(.active) {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .active {
+        background-color: rgb(6, 152, 152);
+        color:red;
+        height: 55px;
+
+    }
+
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+
+    }
+
+    button {
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #ccc;
+    }
+
+    .searchcon {
+        float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+         .searchcon {
+            float: none;
+        }
+
+        .topnav a,
+        input[type=text],
+        button {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+        }
+
+        input[type=text] {
+            border: 1px solid black;
+        }
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <div class="searchCon">
+            <form>
+                <input type="text" placeholder="Search...">
+                <button class="btn">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</body>
