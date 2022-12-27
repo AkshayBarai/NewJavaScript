@@ -15,7 +15,7 @@ console.log('a',a+b);
 console.log('a',a+myName);
 console.log('a',a+'b',b);
 let v=20;
-console.log(v*20);
+console.log('v'+v*20);
 console.log(20*v);
 console.log('aaa' +20+15);
 console.log('aaa' ,20+15);
