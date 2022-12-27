@@ -39,7 +39,7 @@ function test(){
    function test(){
         let mybike_name = "pluser"
         mybike_name = "apache"
-        console.log(mybike_name ak);
-=
+        console.log(mybike_name,'ak');
+
 
    }
