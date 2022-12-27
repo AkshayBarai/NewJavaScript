@@ -24,6 +24,6 @@ function switchstatement(data){
       console.log('Result',Result);
       break
       default :
-      console.log('no found match');
+      console.log('no found match in switch');
 }
 }
