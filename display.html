@@ -1,0 +1,34 @@
+<p id="pTag"> i am paragraph</p>
+<button onclick="document.getElementById( 'pTag').innerHTML= 'i am button'" >click</button>
+
+<p id="pTag2"></p>
+<script>
+var x = 10;
+
+{
+    var x = 2;
+}
+
+document.getElementById('pTag2').innerHTML = x
+</script>
+
+<p id="pTag3"></p>
+
+<script>
+    function myfunction(){
+        let a = 10;
+        let b = 20;
+        return  a*b
+    }
+    document.getElementById("pTag3").innerHTML = myfunction()
+</script>
+
+<p id="pTag4"></p>
+<script>
+    function myfunction2(){
+        let cars = ['Audi','Volvo','Ennivo','mini cuper'] 
+        let car = {CarName:'Audi' ,Color: 'Red', Price : 800000}
+        return CarName
+    }
+    document.getElementById("pTag4").innerHTML =myfunction2()
+</script>
